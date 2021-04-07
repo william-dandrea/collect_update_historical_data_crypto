@@ -28,13 +28,11 @@
 
                 <executions>
                     <execution>
-                        <phase>test</phase>
                         <goals>
                             <goal>java</goal>
                         </goals>
                         <configuration>
                             <mainClass>collect.update.historical.data.crypto.CollectOrUpdate</mainClass>
-
                         </configuration>
                     </execution>
                 </executions>
@@ -43,6 +41,9 @@
 
         </plugins>
     </build>
+
+
+
 
 
 
